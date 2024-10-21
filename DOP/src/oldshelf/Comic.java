@@ -2,16 +2,13 @@ package oldshelf;
 
 public class Comic extends Book {
 
-	/* TODO: Add most strict modifiers here*/ private final String Title;
-	
-	
-	
-	// TODO: Warning to be removed.
+	/* TODO: Add most strict modifiers here*/ private String Title;
 	private final int ageOfMainCharacter;
+	
 
 	// TODO Correct the error
 	public Comic() {
-		s	
+			
 	}
 	
 	// TODO : create a getter if required.
