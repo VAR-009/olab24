@@ -11,8 +11,14 @@ public class OldSelection {
 	 */
 	public static String getAgeOrTitle(Object o) {
 		
-		if (o instanceof Book) {
-			
+		if (o instanceof Comic c) {
+			return c.getTitle();
+		} else if(o instanceof TextBook t) {
+			return t.getSubject();
+		} else if (o instanceof Fiction f){
+			return f.getName();
+		} else {
+			return "";
 		}
 		return null;
 	}
@@ -20,7 +26,7 @@ public class OldSelection {
 	public static void main(String[] args) {
 		
 		// TODO: Write a test code here and execute and text.
-		TextBook t = new TextBook();
+		TextBook t = new TextBook("OOPS");
 		
 	}
 }
