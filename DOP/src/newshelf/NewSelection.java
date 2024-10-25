@@ -1,5 +1,6 @@
 package newshelf;
 
+import oldshelf.FictionType;
 
 public class NewSelection {
 
