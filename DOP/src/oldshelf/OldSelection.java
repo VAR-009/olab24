@@ -27,6 +27,12 @@ public class OldSelection {
 		
 		// TODO: Write a test code here and execute and text.
 		TextBook t = new TextBook("OOPS");
-		
+		System.out.println(OldSelection.getAgeOrTitle(t));
+
+		Comic com = new Comic("Thor",1000);
+		System.out.println(OldSelection.getAgeOrTitle(c));
+
+		Fiction f = new Fiction("IronMan",FictionType.GoK);
+		System.out.println(OldSelection.getAgeOrTitle(f));
 	}
 }
